@@ -54,3 +54,8 @@ myStr3 += "This is the second sentence.";
 /*
 сделано
  */
+
+// Change code below this line
+const someAdjective = "nice, hard, interesting.";
+let myStr4 = "Learning to code is ";
+myStr4 += someAdjective;
