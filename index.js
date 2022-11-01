@@ -50,3 +50,7 @@ const myStr2 = "This is the start. " + "This is the end."; // Change this line
 
 let myStr3 = "This is the first sentence. ";
 myStr3 += "This is the second sentence.";
+
+/*
+сделано
+ */
