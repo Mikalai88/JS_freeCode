@@ -59,3 +59,11 @@ myStr3 += "This is the second sentence.";
 const someAdjective = "nice, hard, interesting.";
 let myStr4 = "Learning to code is ";
 myStr4 += someAdjective;
+
+// Setup
+let lastNameLength;
+let lastName;
+lastName = "Lovelace";
+
+// Only change code below this line
+lastNameLength = lastName.length;
