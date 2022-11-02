@@ -29,3 +29,10 @@ function makeNegative(num) {
     }
     return num;
 }
+
+function solution(str){
+    var splitString = str.split("");
+    var reverseArray = splitString.reverse();
+    var joinArray = reverseArray.join("");
+    return joinArray;
+}
