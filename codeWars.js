@@ -36,3 +36,5 @@ function solution(str){
     var joinArray = reverseArray.join("");
     return joinArray;
 }
+
+// new
