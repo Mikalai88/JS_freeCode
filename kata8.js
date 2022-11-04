@@ -12,3 +12,7 @@ function isDivisible(n, x, y) {
         return false;
     }
 }
+
+function litres(time) {
+    return Math.floor(time/2);
+}
