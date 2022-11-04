@@ -16,3 +16,7 @@ function countSheeps(arrayOfSheep) {
     const pres = arrayOfSheep.filter(sheep => sheep);
     return pres.length;
 }
+
+function century(year) {
+    return Math.ceil(year/100);
+}
