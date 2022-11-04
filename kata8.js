@@ -13,3 +13,10 @@ function basicOp(operation, value1, value2)
         return value1 / value2;
     }
 }
+
+function aName(n){
+
+    [first, last] = n.toUpperCase().split(' ');
+    return first[0] + '.' + last[0];
+
+}
