@@ -11,3 +11,8 @@ function highAndLow(numbers){
     numbers = numbers.split(" ");
     return Math.max.apply(null, numbers) + " " + Math.min.apply(null, numbers);
 }
+
+function countSheeps(arrayOfSheep) {
+    const pres = arrayOfSheep.filter(sheep => sheep);
+    return pres.length;
+}
